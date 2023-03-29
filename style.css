@@ -1,0 +1,395 @@
+.box1{
+              text-align: center;
+              color: red;
+              border: 4px solid black;
+              width: 490px;
+              border-radius: 60px;
+              position: relative;
+              left: 35%;
+}
+
+.box2
+{
+              text-align: center;
+              width: 160px;
+              height: 40px;
+              border: 4px solid black;
+              background-color: yellow;
+              position: relative;
+              left: 48%;
+
+}
+
+.box3
+{
+              
+              text-align: center;
+              width: 160px;
+              height: 40px;
+              border: 4px solid black;
+              background-color: rgb(132, 0, 255);
+              position: relative;
+              left: 48%;
+
+
+}
+
+.box4{
+              
+              text-align: center;
+              width: 160px;
+              height: 40px;
+              border: 4px solid black;
+              background-color: coral;
+              position: relative;
+              left: 48%;
+}
+a{
+              text-decoration: none;
+}
+
+
+.box5{
+              color: black;
+              background-color: yellow;
+              position: relative;
+              left: 20%;
+
+}
+
+.box6{
+              position: relative;
+              left: 20%;
+              font-size: 60px;
+              font-family: 'Delicious Handrawn', cursive;
+}
+
+.box7{
+              width: 150px;
+              height: 150px;
+              margin-left: 150px;
+              background-color: red;
+              transition-property: width;
+              transition-duration: 2s;
+}
+
+
+.box7:hover{
+              width: 350px;
+}
+
+
+.box8{
+             width: 200px; 
+             height: 200px;
+             background-color: blue;
+             margin-left: 150px;
+             border-radius: 50%;
+
+}
+.imp{
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+}
+
+.box9{
+              width: 200px;
+              height: 200px;
+              background-color: orange;
+}
+.box10{
+              width: 200px;
+              height: 200px;
+              background-color: yellow;
+}
+
+
+.box11{
+              width: 200px;
+              height: 200px;
+              background-color: indianred;
+}
+
+@media screen and (min-width:300px) and (max-width:600px)
+{
+              .imp{
+                            display: flex;
+                            flex-direction: column;
+              }
+}
+
+.box12{
+              width: 200px;
+              height: 200px;
+              background-color: magenta;
+              position: relative;
+              left: 150px;
+              animation-name: changed;
+              animation-duration: 2s;
+              animation-iteration-count: infinite;
+}
+
+@keyframes changed{
+              0%{background-color: red;border-radius: 20%;}
+              25%{background-color: coral;border-radius: 40%;}
+              50%{background-color: skyblue;border-radius: 50%;}
+              75%{background-color: blue;border-radius:70%}
+              100%{background-color: violet;border-radius:90%}
+}
+
+.box13{
+              text-align: center;
+              width: 160px;
+              height: 40px;
+              border: 4px solid black;
+              background-color: magenta;
+              position: relative;
+              left: 48%;
+}
+
+.like1{
+              text-align: center;
+              font-weight: bolder;
+}
+
+.like2{
+              display: inline-block;
+              position: relative;
+              left: 230px;
+              color: red;
+              background-color: blanchedalmond;
+
+}
+
+.like3{
+              width: 500px;
+              height: 250px;
+              border: 6px solid black;
+              margin-left: 100px;
+              background-image: url(./image.jpg);
+              background-position: 100%;
+              background-size: contain;
+
+}
+.like6{
+              color: red;
+              float: right;
+              position: relative;
+}
+
+.like5{
+              
+}
+
+.layer{
+              display: flex;
+              flex-direction: row;
+}
+
+.layer1{
+              width: 200px;
+              height: 200px;
+              background-color: coral;
+}
+.layer2{
+              width: 200px;
+              height: 200px;
+              background-color: pink;
+
+}
+
+.layer3{
+              width: 200px;
+              height: 200px;
+              background-color: palegreen;
+}
+
+@media screen and (min-width:300px) and (max-width:600px)
+{
+              .layer{
+                            display: flex;
+                            flex-direction: column;
+              }
+}
+.most{
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              
+}
+.most1{
+              width: 90px;
+              height: 40px;
+              font-size: xx-large;
+              background-color:blue;
+              margin-right: 20px;
+}
+
+.most2{
+              width: 120px;
+              height: 40px;
+              font-size: xx-large;
+              background-color: blue;
+              margin-right: 20px;
+}
+
+/* MOBILE VIEW */
+
+@media screen and (min-width:300px) and (max-width:600px)
+{
+              .most1{
+                            background-color: green;
+              }
+              .most2{
+                            background-color: green;
+              }
+              .most{
+                            display: flex;
+                            flex-direction: column;
+              }
+}
+/* 
+IPAD VIEW */
+
+@media screen and (min-width:780px) and (max-width:1024px)
+{
+              .most1{
+                            background-color: red;
+              }
+              .most2{
+                            background-color: red;
+              }
+              .most{
+                            display: flex;
+                            flex-direction: column;
+              }
+}
+
+.part{
+              display: flex;
+              flex-direction: column-reverse;
+              
+}
+.part1
+{
+              width: 200px;
+              height: 200px;
+              font-size: 80px;
+              background-color: red;
+              
+}
+.part2{
+              
+              width: 200px;
+              height: 200px;
+              font-size: 80px;
+              background-color: yellow;
+              
+}
+
+.part3{
+              
+              width: 200px;
+              height: 200px;
+              font-size: 80px;
+              background-color: skyblue;
+}
+
+.cell{
+              text-align: center;
+              width: 160px;
+              height: 40px;
+              border: 4px solid black;
+              background-color: peru;
+              position: relative;
+              left: 48%;
+
+}
+.cell1{
+              width: 200px;
+              height: 200px;
+              background-color: aqua;
+              transition-property: border-radius, background-color;
+              transition-duration: 2s;
+              transition-timing-function: 2s;
+              
+}
+.cell1:hover{
+              border-radius: 50%;
+              background-color: red;
+}
+
+.cell2{
+              width: 200px;
+              height: 200px;
+              background-color: magenta;
+}
+.cell2:hover{
+              transform: scaleX(1.2) rotate(45deg);
+}
+.let{
+              width: 400px;
+              height: 200px;
+              display: grid;
+              grid-template-columns: auto 30% 20%  ;
+              grid-template-rows: 50% auto 20% auto;
+              border: 5px solid black;
+
+}
+.let1
+{
+              background-color: antiquewhite;
+
+}
+
+.let2 
+{
+              background-color: skyblue;
+
+}
+
+.let3
+{
+              background-color: coral;
+
+}
+
+.let4
+{
+              background-color: pink;
+
+}
+
+.let5
+{
+              background-color: greenyellow;
+
+}
+
+.let6
+{
+              background-color: yellow;
+
+}
+.let7{
+              background-color: antiquewhite;
+
+}
+
+
+.let8
+{
+              background-color: skyblue;
+
+}
+body{
+              background-color: lightyellow;
+}
+
+button{
+              margin-right: 31px;
+              
+}
+
+
